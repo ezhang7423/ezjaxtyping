@@ -16,6 +16,10 @@
 # COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 # IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 # CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+import sys
+
+if sys.version_info < (3, 9):
+    raise RuntimeError("jaxtyping requires Python 3.9+")
 
 import importlib.metadata
 import typing
