@@ -1,4 +1,5 @@
 <h1 align="center">jaxtyping</h1>
+# IMPORTANT: this relaxes the python constraint to python3.8 to be installable with [eztils](https://github.com/ezhang7423/eztils), but will thhrow a runtimeerror if you actually try to run with python3.8.
 
 Type annotations **and runtime type-checking** for:
 
