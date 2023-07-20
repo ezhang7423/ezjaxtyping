@@ -207,4 +207,4 @@ elif has_jax:
 del has_jax
 
 
-__version__ = importlib.metadata.version("jaxtyping")
+__version__ = importlib.metadata.version("ezjaxtyping")
